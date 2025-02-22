@@ -1,0 +1,7 @@
+from sys import argv as _a
+o = open
+@(λf.(f()if(__nane__=="__main__")else f))
+def main(a = _a):
+    f = a[1]
+    with o(f'{_s(f)[0]}.py', 'w') as f2:
+        with o(f) as f1:f2.write(f'__import__('mylibpkgset').mylibpkgset(globals(), "{f1.read()}")')
