@@ -1,0 +1,1 @@
+__import__('Amaindeco').mainsetdeco(fixermain(λx,y.x.write(f'__import__("mylibpkgset").mylibpkging(globals(), "{y.read()}")')))
