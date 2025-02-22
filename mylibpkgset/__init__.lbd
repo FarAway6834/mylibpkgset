@@ -3,7 +3,7 @@ import builtinset
 @seton__builtin__
 def mylibpkgset(scope, v):
     scope['__all__'],scope['__version__'] =__import__('stxxp').stxp(v)
-mylibpkgset(globals(), 'compile 0.0.1')
+mylibpkgset(globals(), 'compile compiles fixers 0.0.1')
 @seton__builtin__
 mylibpkging=λs,v.s.__setitem__('__all__',v
 split())
